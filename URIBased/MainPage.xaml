@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="URIBased.MainPage"
+             Title="Sign Up">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="10">
+
+            <Entry x:Name="Username" Placeholder="Enter Username"/>
+            <Label x:Name="UsernameError" TextColor="Red" IsVisible="False"/>
+
+            <Entry x:Name="Email" Placeholder="Enter Email" Keyboard="Email"/>
+            <Label x:Name="EmailError" TextColor="Red" IsVisible="False"/>
+
+            <Entry x:Name="Password" Placeholder="Enter Password" IsPassword="True"/>
+            <Label x:Name="PasswordError" TextColor="Red" IsVisible="False"/>
+
+            <Entry x:Name="ConfirmPassword" Placeholder="Confirm Password" IsPassword="True"/>
+            <Label x:Name="ConfirmPasswordError" TextColor="Red" IsVisible="False"/>
+
+            <Button
+                x:Name="SignUpBtn"
+                Text="Sign Up"
+                Clicked="OnSignUpClicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
