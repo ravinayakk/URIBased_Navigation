@@ -6,14 +6,26 @@
 
     <VerticalStackLayout Padding="20" Spacing="15">
 
-        <Label FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"/>
+        <Label FontSize="24" 
+               FontAttributes="Bold" 
+               HorizontalOptions="Center"/>
 
-        <Label x:Name="ConfirmationMessage" Text="" FontSize="18" TextColor="Green" HorizontalOptions="Center"/>
+        <Label x:Name="ConfirmationMessage" Text="" 
+               FontSize="18" 
+               TextColor="Green" 
+               HorizontalOptions="Center"/>
 
-        <Label x:Name="LblUsername" Text="" FontSize="18"/>
-        <Label x:Name="LblEmail" Text="" FontSize="18"/>
+        <Label x:Name="LblUsername" 
+               Text="" 
+               FontSize="18"/>
+        <Label x:Name="LblEmail" 
+               Text="" 
+               FontSize="18"/>
 
-        <Button Text="Sign Out" Clicked="OnSignOutClicked" BackgroundColor="Red" TextColor="White" />
+        <Button Text="Sign Out" 
+                Clicked="OnSignOutClicked" 
+                BackgroundColor="Red" 
+                TextColor="White" />
 
     </VerticalStackLayout>
 </ContentPage>

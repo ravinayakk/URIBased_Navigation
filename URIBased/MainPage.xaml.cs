@@ -28,7 +28,6 @@ public partial class MainPage : ContentPage
     {
         bool isValid = true;
 
-        // Reset visibility
         UsernameError.IsVisible = false;
         EmailError.IsVisible = false;
         PasswordError.IsVisible = false;
